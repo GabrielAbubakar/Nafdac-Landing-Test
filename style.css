@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+.navigation {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 2rem 8rem;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 5rem;
+}
+
+.navigation li {
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+
+.navigation a {
+    padding: 1.4rem 3rem;
+    border-radius: 10px;
+    background-color: #fff;
+    color: green;
+    text-decoration: none;
+}
