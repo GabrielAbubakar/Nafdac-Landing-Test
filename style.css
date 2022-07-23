@@ -37,9 +37,9 @@ body {
 
 .hero-container {
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.766)),
+        linear-gradient(rgba(255, 255, 255, 0.879), rgba(255, 255, 255, 0.885)),
         url("./images/WhatsApp\ Image\ 2022-07-05\ at\ 10.47.41\ AM.jpeg");
-    padding: 4rem 8rem 7rem 8rem;
+    padding: 4rem 2rem 7rem 8rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,6 +72,7 @@ body {
     font-size: 1.1rem;
     font-weight: 600;
     gap: 3rem;
+    margin-right: 6rem;
 }
 
 .search-form label {
@@ -96,6 +97,7 @@ body {
 
 .image-box {
     /* display: flex; */
+    display: block;
     position: relative;
 }
 
